@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    
+        body {
+            background-color: rgb(38, 16, 58);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 85px;
+            background-color: rgb(20, 1, 37);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(132, 132, 216);
+            font-size: 1.04rem;
+
+        }
+        .left{
+            font-size: 2rem;
+        }
+        .firstsec{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+        .firstsec > div{
+            width: 30%;
+        }
+        .leftsect{
+            font-size: 2rem;
+        }
+        .rightsect img{
+            margin: 30px;
+            width: 450px;
+        }
+        .purple{
+            color: mediumblue;
+        }
+        .btns a{
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 40px;
+            height: 40px;
+            background: transparent;
+            border: 1px solid rgb(115, 59, 165);
+            border-radius: 50%;
+            font-size: 20px;
+            color: rgb(132, 132, 216);
+            text-decoration: none;
+            margin: 30px 15px 30px 0;
+        
+        }
+        .btns a:hover{
+            background: rgb(188, 139, 235);
+            color: darkorchid;
+            box-shadow: 0 0 20px blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Harsh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsec">
+            <div class="leftsect">
+                Hi, My name is <span class="purple">Harsh</span>
+                <div></div>
+                <span id="element"></span>
+                <div class="btns">
+                    <a href="https://instagram.com/hxrshhh.y"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://x.com/YadavHarshhh"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.linkedin.com/in/hxrshy/"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="rightsect">
+                <img src="3.jpeg" alt="">
+            </div>
+
+
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['a passionate second-year student', 'at Manipal University Jaipur','majoring in Computer Science and Engineering.'],
+          typeSpeed: 50,
+        });
+      </script>
+
+</body>
+</html>
+1920
+1920
+                
